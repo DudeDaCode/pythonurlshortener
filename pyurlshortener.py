@@ -1,4 +1,5 @@
 import pyshorteners
 
 s = pyshorteners.Shortener()
-print(s.tinyurl.short('https://www.github.com'))
+Url = input("Enter Your Url : ")
+print(s.tinyurl.short(f'{Url}'))
